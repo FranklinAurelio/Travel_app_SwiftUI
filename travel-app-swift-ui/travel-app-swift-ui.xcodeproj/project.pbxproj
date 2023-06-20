@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1679CFC42A42171200B7A776 /* travel_app_swift_uiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1679CFC32A42171200B7A776 /* travel_app_swift_uiApp.swift */; };
+		1679CFC62A42171200B7A776 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1679CFC52A42171200B7A776 /* ContentView.swift */; };
+		1679CFC82A42171300B7A776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1679CFC72A42171300B7A776 /* Assets.xcassets */; };
+		1679CFCB2A42171300B7A776 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1679CFCA2A42171300B7A776 /* Preview Assets.xcassets */; };
+		1679CFD52A42171300B7A776 /* travel_app_swift_uiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1679CFD42A42171300B7A776 /* travel_app_swift_uiTests.swift */; };
+		1679CFDF2A42171300B7A776 /* travel_app_swift_uiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1679CFDE2A42171300B7A776 /* travel_app_swift_uiUITests.swift */; };
+		1679CFE12A42171300B7A776 /* travel_app_swift_uiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1679CFE02A42171300B7A776 /* travel_app_swift_uiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1679CFD12A42171300B7A776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1679CFB82A42171200B7A776 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1679CFBF2A42171200B7A776;
+			remoteInfo = "travel-app-swift-ui";
+		};
+		1679CFDB2A42171300B7A776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1679CFB82A42171200B7A776 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1679CFBF2A42171200B7A776;
+			remoteInfo = "travel-app-swift-ui";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1679CFC02A42171200B7A776 /* travel-app-swift-ui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "travel-app-swift-ui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1679CFC32A42171200B7A776 /* travel_app_swift_uiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = travel_app_swift_uiApp.swift; sourceTree = "<group>"; };
+		1679CFC52A42171200B7A776 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1679CFC72A42171300B7A776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1679CFCA2A42171300B7A776 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1679CFD02A42171300B7A776 /* travel-app-swift-uiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "travel-app-swift-uiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1679CFD42A42171300B7A776 /* travel_app_swift_uiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = travel_app_swift_uiTests.swift; sourceTree = "<group>"; };
+		1679CFDA2A42171300B7A776 /* travel-app-swift-uiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "travel-app-swift-uiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1679CFDE2A42171300B7A776 /* travel_app_swift_uiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = travel_app_swift_uiUITests.swift; sourceTree = "<group>"; };
+		1679CFE02A42171300B7A776 /* travel_app_swift_uiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = travel_app_swift_uiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1679CFBD2A42171200B7A776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1679CFCD2A42171300B7A776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1679CFD72A42171300B7A776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1679CFB72A42171200B7A776 = {
+			isa = PBXGroup;
+			children = (
+				1679CFC22A42171200B7A776 /* travel-app-swift-ui */,
+				1679CFD32A42171300B7A776 /* travel-app-swift-uiTests */,
+				1679CFDD2A42171300B7A776 /* travel-app-swift-uiUITests */,
+				1679CFC12A42171200B7A776 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1679CFC12A42171200B7A776 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1679CFC02A42171200B7A776 /* travel-app-swift-ui.app */,
+				1679CFD02A42171300B7A776 /* travel-app-swift-uiTests.xctest */,
+				1679CFDA2A42171300B7A776 /* travel-app-swift-uiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1679CFC22A42171200B7A776 /* travel-app-swift-ui */ = {
+			isa = PBXGroup;
+			children = (
+				1679CFC32A42171200B7A776 /* travel_app_swift_uiApp.swift */,
+				1679CFC52A42171200B7A776 /* ContentView.swift */,
+				1679CFC72A42171300B7A776 /* Assets.xcassets */,
+				1679CFC92A42171300B7A776 /* Preview Content */,
+			);
+			path = "travel-app-swift-ui";
+			sourceTree = "<group>";
+		};
+		1679CFC92A42171300B7A776 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1679CFCA2A42171300B7A776 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1679CFD32A42171300B7A776 /* travel-app-swift-uiTests */ = {
+			isa = PBXGroup;
+			children = (
+				1679CFD42A42171300B7A776 /* travel_app_swift_uiTests.swift */,
+			);
+			path = "travel-app-swift-uiTests";
+			sourceTree = "<group>";
+		};
+		1679CFDD2A42171300B7A776 /* travel-app-swift-uiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1679CFDE2A42171300B7A776 /* travel_app_swift_uiUITests.swift */,
+				1679CFE02A42171300B7A776 /* travel_app_swift_uiUITestsLaunchTests.swift */,
+			);
+			path = "travel-app-swift-uiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1679CFBF2A42171200B7A776 /* travel-app-swift-ui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1679CFE42A42171300B7A776 /* Build configuration list for PBXNativeTarget "travel-app-swift-ui" */;
+			buildPhases = (
+				1679CFBC2A42171200B7A776 /* Sources */,
+				1679CFBD2A42171200B7A776 /* Frameworks */,
+				1679CFBE2A42171200B7A776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "travel-app-swift-ui";
+			productName = "travel-app-swift-ui";
+			productReference = 1679CFC02A42171200B7A776 /* travel-app-swift-ui.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1679CFCF2A42171300B7A776 /* travel-app-swift-uiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1679CFE72A42171300B7A776 /* Build configuration list for PBXNativeTarget "travel-app-swift-uiTests" */;
+			buildPhases = (
+				1679CFCC2A42171300B7A776 /* Sources */,
+				1679CFCD2A42171300B7A776 /* Frameworks */,
+				1679CFCE2A42171300B7A776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1679CFD22A42171300B7A776 /* PBXTargetDependency */,
+			);
+			name = "travel-app-swift-uiTests";
+			productName = "travel-app-swift-uiTests";
+			productReference = 1679CFD02A42171300B7A776 /* travel-app-swift-uiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1679CFD92A42171300B7A776 /* travel-app-swift-uiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1679CFEA2A42171300B7A776 /* Build configuration list for PBXNativeTarget "travel-app-swift-uiUITests" */;
+			buildPhases = (
+				1679CFD62A42171300B7A776 /* Sources */,
+				1679CFD72A42171300B7A776 /* Frameworks */,
+				1679CFD82A42171300B7A776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1679CFDC2A42171300B7A776 /* PBXTargetDependency */,
+			);
+			name = "travel-app-swift-uiUITests";
+			productName = "travel-app-swift-uiUITests";
+			productReference = 1679CFDA2A42171300B7A776 /* travel-app-swift-uiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1679CFB82A42171200B7A776 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1679CFBF2A42171200B7A776 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					1679CFCF2A42171300B7A776 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 1679CFBF2A42171200B7A776;
+					};
+					1679CFD92A42171300B7A776 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 1679CFBF2A42171200B7A776;
+					};
+				};
+			};
+			buildConfigurationList = 1679CFBB2A42171200B7A776 /* Build configuration list for PBXProject "travel-app-swift-ui" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1679CFB72A42171200B7A776;
+			productRefGroup = 1679CFC12A42171200B7A776 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1679CFBF2A42171200B7A776 /* travel-app-swift-ui */,
+				1679CFCF2A42171300B7A776 /* travel-app-swift-uiTests */,
+				1679CFD92A42171300B7A776 /* travel-app-swift-uiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1679CFBE2A42171200B7A776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1679CFCB2A42171300B7A776 /* Preview Assets.xcassets in Resources */,
+				1679CFC82A42171300B7A776 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1679CFCE2A42171300B7A776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1679CFD82A42171300B7A776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1679CFBC2A42171200B7A776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1679CFC62A42171200B7A776 /* ContentView.swift in Sources */,
+				1679CFC42A42171200B7A776 /* travel_app_swift_uiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1679CFCC2A42171300B7A776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1679CFD52A42171300B7A776 /* travel_app_swift_uiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1679CFD62A42171300B7A776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1679CFE12A42171300B7A776 /* travel_app_swift_uiUITestsLaunchTests.swift in Sources */,
+				1679CFDF2A42171300B7A776 /* travel_app_swift_uiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1679CFD22A42171300B7A776 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1679CFBF2A42171200B7A776 /* travel-app-swift-ui */;
+			targetProxy = 1679CFD12A42171300B7A776 /* PBXContainerItemProxy */;
+		};
+		1679CFDC2A42171300B7A776 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1679CFBF2A42171200B7A776 /* travel-app-swift-ui */;
+			targetProxy = 1679CFDB2A42171300B7A776 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1679CFE22A42171300B7A776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1679CFE32A42171300B7A776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1679CFE52A42171300B7A776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"travel-app-swift-ui/Preview Content\"";
+				DEVELOPMENT_TEAM = 6NLKWTB739;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Franklin-Aurelio.travel-app-swift-ui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1679CFE62A42171300B7A776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"travel-app-swift-ui/Preview Content\"";
+				DEVELOPMENT_TEAM = 6NLKWTB739;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Franklin-Aurelio.travel-app-swift-ui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1679CFE82A42171300B7A776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6NLKWTB739;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Franklin-Aurelio.travel-app-swift-uiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/travel-app-swift-ui.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/travel-app-swift-ui";
+			};
+			name = Debug;
+		};
+		1679CFE92A42171300B7A776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6NLKWTB739;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Franklin-Aurelio.travel-app-swift-uiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/travel-app-swift-ui.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/travel-app-swift-ui";
+			};
+			name = Release;
+		};
+		1679CFEB2A42171300B7A776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6NLKWTB739;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Franklin-Aurelio.travel-app-swift-uiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "travel-app-swift-ui";
+			};
+			name = Debug;
+		};
+		1679CFEC2A42171300B7A776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6NLKWTB739;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Franklin-Aurelio.travel-app-swift-uiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "travel-app-swift-ui";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1679CFBB2A42171200B7A776 /* Build configuration list for PBXProject "travel-app-swift-ui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1679CFE22A42171300B7A776 /* Debug */,
+				1679CFE32A42171300B7A776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1679CFE42A42171300B7A776 /* Build configuration list for PBXNativeTarget "travel-app-swift-ui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1679CFE52A42171300B7A776 /* Debug */,
+				1679CFE62A42171300B7A776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1679CFE72A42171300B7A776 /* Build configuration list for PBXNativeTarget "travel-app-swift-uiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1679CFE82A42171300B7A776 /* Debug */,
+				1679CFE92A42171300B7A776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1679CFEA2A42171300B7A776 /* Build configuration list for PBXNativeTarget "travel-app-swift-uiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1679CFEB2A42171300B7A776 /* Debug */,
+				1679CFEC2A42171300B7A776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1679CFB82A42171200B7A776 /* Project object */;
+}
