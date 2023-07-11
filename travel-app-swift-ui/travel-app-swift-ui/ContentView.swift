@@ -60,11 +60,9 @@ struct ContentView: View {
                        
                     }.offset(y: -28)
                     
-                    List{
-                        Text("Rio de Janeiro")
-                        Text("Ceará")
-                        Text("Atibaia")
-                        Text("Natal")
+                    List(viagens){  viagem in
+                        Text(viagem.titulo)
+                    
                     }
             }
         }

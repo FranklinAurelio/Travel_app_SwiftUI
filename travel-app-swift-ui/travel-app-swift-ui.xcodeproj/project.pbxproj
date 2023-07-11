@@ -14,6 +14,9 @@
 		1679CFD52A42171300B7A776 /* travel_app_swift_uiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1679CFD42A42171300B7A776 /* travel_app_swift_uiTests.swift */; };
 		1679CFDF2A42171300B7A776 /* travel_app_swift_uiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1679CFDE2A42171300B7A776 /* travel_app_swift_uiUITests.swift */; };
 		1679CFE12A42171300B7A776 /* travel_app_swift_uiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1679CFE02A42171300B7A776 /* travel_app_swift_uiUITestsLaunchTests.swift */; };
+		167FC2A82A5DAE2A00D25AA0 /* viagens.json in Resources */ = {isa = PBXBuildFile; fileRef = 167FC2A72A5DAE2A00D25AA0 /* viagens.json */; };
+		167FC2AC2A5DB0C600D25AA0 /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167FC2AB2A5DB0C600D25AA0 /* Viagem.swift */; };
+		167FC2AE2A5DB0C700D25AA0 /* Dados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167FC2AD2A5DB0C700D25AA0 /* Dados.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		1679CFDA2A42171300B7A776 /* travel-app-swift-uiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "travel-app-swift-uiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1679CFDE2A42171300B7A776 /* travel_app_swift_uiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = travel_app_swift_uiUITests.swift; sourceTree = "<group>"; };
 		1679CFE02A42171300B7A776 /* travel_app_swift_uiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = travel_app_swift_uiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		167FC2A72A5DAE2A00D25AA0 /* viagens.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = viagens.json; sourceTree = "<group>"; };
+		167FC2AB2A5DB0C600D25AA0 /* Viagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viagem.swift; sourceTree = "<group>"; };
+		167FC2AD2A5DB0C700D25AA0 /* Dados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dados.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +101,10 @@
 			isa = PBXGroup;
 			children = (
 				1679CFC32A42171200B7A776 /* travel_app_swift_uiApp.swift */,
+				167FC2AD2A5DB0C700D25AA0 /* Dados.swift */,
+				167FC2AB2A5DB0C600D25AA0 /* Viagem.swift */,
 				1679CFC52A42171200B7A776 /* ContentView.swift */,
+				167FC2A72A5DAE2A00D25AA0 /* viagens.json */,
 				1679CFC72A42171300B7A776 /* Assets.xcassets */,
 				1679CFC92A42171300B7A776 /* Preview Content */,
 			);
@@ -233,6 +242,7 @@
 			files = (
 				1679CFCB2A42171300B7A776 /* Preview Assets.xcassets in Resources */,
 				1679CFC82A42171300B7A776 /* Assets.xcassets in Resources */,
+				167FC2A82A5DAE2A00D25AA0 /* viagens.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +268,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1679CFC62A42171200B7A776 /* ContentView.swift in Sources */,
+				167FC2AE2A5DB0C700D25AA0 /* Dados.swift in Sources */,
+				167FC2AC2A5DB0C600D25AA0 /* Viagem.swift in Sources */,
 				1679CFC42A42171200B7A776 /* travel_app_swift_uiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
