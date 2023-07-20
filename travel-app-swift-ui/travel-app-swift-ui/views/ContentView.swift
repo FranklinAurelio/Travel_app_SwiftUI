@@ -12,17 +12,23 @@ struct ContentView: View {
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     
     var body: some View {
+            
+        NavigationView{
             GeometryReader{ view in
-               
                 VStack{
                     HeaderView()
                         .frame(width: view.size.width, height: self.horizontalSizeClass == .compact ? 207 : 310, alignment: .top)
                     List(viagens){  viagem in
-                        CellTravelView(viagem: viagem)
-                    }
+                        NavigationLink(destination: MapView(coordenada: viagem.localizacao).navigationTitle("Localization"))
+                        {
+                            CellTravelView(viagem: viagem)
+                        }
+
+                    }.navigationTitle("")
                 }
             }
             .edgesIgnoringSafeArea(.all)
+        }
     }
 }
 

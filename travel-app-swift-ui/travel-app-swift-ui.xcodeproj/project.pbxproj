@@ -19,6 +19,7 @@
 		167FC2AE2A5DB0C700D25AA0 /* Dados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167FC2AD2A5DB0C700D25AA0 /* Dados.swift */; };
 		1682AD6C2A60243D0099419A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1682AD6B2A60243D0099419A /* HeaderView.swift */; };
 		1682AD6E2A6025480099419A /* CellTravelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1682AD6D2A6025480099419A /* CellTravelView.swift */; };
+		16F3C8972A698066001C5C8A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F3C8962A698066001C5C8A /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		167FC2AD2A5DB0C700D25AA0 /* Dados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dados.swift; sourceTree = "<group>"; };
 		1682AD6B2A60243D0099419A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		1682AD6D2A6025480099419A /* CellTravelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTravelView.swift; sourceTree = "<group>"; };
+		16F3C8962A698066001C5C8A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 				1679CFC52A42171200B7A776 /* ContentView.swift */,
 				1682AD6B2A60243D0099419A /* HeaderView.swift */,
 				1682AD6D2A6025480099419A /* CellTravelView.swift */,
+				16F3C8962A698066001C5C8A /* MapView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16F3C8972A698066001C5C8A /* MapView.swift in Sources */,
 				1682AD6C2A60243D0099419A /* HeaderView.swift in Sources */,
 				1679CFC62A42171200B7A776 /* ContentView.swift in Sources */,
 				1682AD6E2A6025480099419A /* CellTravelView.swift in Sources */,
